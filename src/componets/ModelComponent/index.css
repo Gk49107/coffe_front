@@ -1,0 +1,74 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.CustomModel-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadein 0.3s;
+}
+.modal-close-btn {
+  background-color: initial;
+  border: 0;
+  cursor: pointer;
+}
+.rent-modal-close-btn {
+  background-color: initial;
+  border: 0;
+  padding: 8px;
+  background-color: var(--primaryColor);
+  color: white;
+  cursor: pointer;
+  display: flex;
+}
+.rent-model-header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 1);
+}
+.title_rent {
+  width: 100%;
+  margin-left: 15px;
+}
+.CustomModel-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.CustomModel-inner-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+}
+
+.custom-role-model-form1 {
+  /* overflow-y: auto; */
+  height: 88%;
+  padding: 0 15px 15px 15px;
+}
+
+.custom-role-model-form1 .table-container {
+  margin: 13px 0px;
+}
+
+.title_model h4 {
+  font-weight: 600;
+  font-size: 16px;
+}

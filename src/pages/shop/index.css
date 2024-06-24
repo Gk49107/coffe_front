@@ -1,0 +1,71 @@
+.shop_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.form_container {
+  width: 400px;
+  height: auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 10%;
+}
+.shop_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.input-label {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-bottom: 7px;
+  margin-top: 16px;
+  text-wrap: wrap;
+  text-transform: capitalize;
+}
+
+.shop_input {
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #a9a9a9;
+  padding-left: 15px;
+  font-weight: 600;
+  outline: none;
+  padding-right: 8px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.submit_button {
+  background-color: #009e90;
+  width: 360px;
+  padding: 3px 10px 4px 10px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}

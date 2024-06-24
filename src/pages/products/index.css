@@ -1,0 +1,106 @@
+.products_page_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 78px;
+}
+.shop_product_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.product_shop_img_con {
+  display: flex;
+  width: 100%;
+  height: 78vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.backarrow {
+  position: absolute;
+  /* color: white; */
+  top: 19px;
+  left: 19px;
+  background-color: transparent;
+  border: none;
+}
+.backarrow svg :hover {
+  transform: scale(1.2);
+}
+.backarrow svg {
+  color: white;
+  transition: all ease-in-out 0.7s;
+}
+.shop_product_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product_shop_details {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 70vh;
+  border-top-left-radius: 40px;
+  padding: 40px;
+  border-top-right-radius: 40px;
+}
+.product_category_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 10%;
+}
+.product_category {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 20px; */
+  gap: 10%;
+  padding: 10px 10px 0 10px;
+}
+.product_active {
+  border-bottom: solid black 3px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.product_active h1 {
+  color: black !important;
+}
+.product_active svg {
+  color: black !important;
+}
+.product_category h1,
+svg {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+.product_category svg {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(114, 113, 113);
+}
+
+.product_list_container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
